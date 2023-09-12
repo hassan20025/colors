@@ -1,88 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Bootstrap Components</h1>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+
+            <button type="button" class="btn btn-link">Link</button>
+        </div>
+    </div>
+    
+
+  </body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mondrian Project</title>
-  <style>
-    /*
-    Write your CSS here
-    Gap Colour: #000
-    White: #F0F1EC
-    Red: #E72F24
-    Black: #232629
-    Blue: #004592
-    Yellow: #F9D01E
-
-    For dimensions, see dimensions.png image.
-    HINT: Remember you can't change the properties of grid lines.
-    But grid lines are transparent!
-    */
-    body{
-      display:flex;
-      justify-content: center;  
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
-    }
-    .content{
-      height: 748px;
-      width: 748px;
-      display: grid;
-      background-color: #000;
-      grid-template-columns: 42.78% 26.47% 20.4% 3.6%;
-      grid-template-rows: 414px 130px 155px 22px;
-      gap: 9px;
-    }
-
-    .item{
-      background-color: #F0F1EC;
-    }
-    .red{
-      background-color: #f014a3;
-    }
-    .white{
-      background-color: #F0F1EC;
-    }
-    .blue{
-      background-color: #004592;
-    }
-    .yellow{
-      background-color: #F9D01E;
-    }
-    .black{
-      background-color: #232629;
-    }
-    .white1{
-      grid-column:span 3;
-    }
-    .white2{
-      grid-row:span 2;
-    } 
-    .white3{
-      grid-area:2/2/4/4;
-    }
-
-  </style>
-</head>
-
-<body>
-  <!-- Write your HTML here -->
-  <div class="content">
-    <div class="item red"></div>
-    <div class="item white1"></div>
-    <div class="item white2"></div>
-    <div class="item white3"></div>
-    <div class="item blue"></div>
-    <div class="item white4"></div>
-    <div class="item"></div>
-    <div class="item yellow"></div>
-    <div class="item black"></div>
-
-
-  </div>
-</body>
-
-</html>
